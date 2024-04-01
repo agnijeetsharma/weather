@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   min-height: 85vh;
+   align-items: center;
+   align-self: center;
+   
+}
+.weather_box{
+    background-color:lightblue;
+ height: 25rem;
+ width: 20rem;
+ border: 2px solid lightblue;
+ border-radius: 1.5rem;
+  
+}
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin-top: 15px;
+}
+input{
+    
+    outline: none;
+    border: none;
+    height: 2.5rem;
+    width: 15rem;
+    border: 1px solid skyblue;
+    border-radius: 1.5rem;
+    font-size: 15px;
+    text-decoration:blue;
+    padding-left: 10px;
+}
+
+
+button{
+    border: none;
+    outline: none;
+    border-radius: 65%;
+    cursor: pointer;
+   
+}
+button:hover{
+   background-color: rgb(206, 201, 201);
+}
+
+
+.temp{
+    margin-top: 2rem;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-items:center;
+    gap: 15px;
+   
+}
+.more{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+   
+}
+.wind ,.humidity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5px;
+   
+}
+
+
+
+
+    .icon{
+        height: 70px;
+        width:70px;
+        
+    }
